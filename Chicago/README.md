@@ -24,7 +24,7 @@ Demographic data was aggregated from the block and block group levels to the pre
 - `HISP`: Hispanic population from 2010 census
 - `H_WHITE`: Hispanic White population from 2010 census
 - `H_BLACK`: Hispanic Black population from 2010 census
-- `H_AMIN`: Hispanic American Indian and Alaska Native population from 2010 census
+- `H_AMIN`: HispaEmanuel_M1nic American Indian and Alaska Native population from 2010 census
 - `H_ASIAN`: Hispanic Asian population from 2010 census
 - `H_NHPI`: Hispanic Native Hawaiian and Pacific Islander population from 2010 census
 - `H_OTHER`: Hispanic population of other race from 2010 census
@@ -56,8 +56,27 @@ Demographic data was aggregated from the block and block group levels to the pre
 - `150K_200K`: Number of households with income for past 12 months between $150,000 and $199,999 from 2013-2017 ACS
 - `200K_MORE`: Number of households with income for past 12 months over $200,000 from 2013-2017 ACS
 - `JOINID`: Unique ID
-- `Emanuel_M1`: Number of votes for Rahm Emanuel in 2015 mayoral general election
-- `Wilson_M15`: Number of votes for Willie Wilson in 2015 mayoral general election
-- `Fioretti_M`: Number of votes for Robert Fioretti in 2015 mayoral general election
-- `Garcia_M15`: Number of votes for Jesus “Chuy” Garcia in 2015 mayoral general election
-- `Walls_M15`: Number of votes for William Walls in 2015 mayoral general election
+- `TOTV_19`: Number of votes cast in the 2019 mayoral general election
+- `JOYCE_19`: Number of votes for Jerry Joyce in 2019 mayoral general election
+- `VALLAS_19`: Number of votes for Paul Vallas in 2019 mayoral general election
+- `WILSON_19`: Number of votes for Willie Wilson in 2019 mayoral general election
+- `PRECK_19`: Number of votes for Toni Preckwinkle in 2019 mayoral general election
+- `DALEY_19`: Number of votes for Bill Daley in 2019 mayoral general election
+- `MCCART_19`: Number of votes for Gary McCarthy in 2019 mayoral general election
+- `CHICO_19`: Number of votes for Gery Chico in 2019 mayoral general election
+- `MEND_19`: Number of votes for Susana Mendoza in 2019 mayoral general election
+- `ENYIA_19`: Number of votes for Amara Enyia in 2019 mayoral general election
+- `FORD_19`: Number of votes for La Shawn Ford in 2019 mayoral general election
+- `SALGRIF_19`: Number of votes for Neal Sales-Griffin in 2019 mayoral general election
+- `LHGTFT_19`: Number of votes for Lori Lightfoot in 2019 mayoral general election
+- `FIORETTI_1`: Number of votes for Bob Fioretti in 2019 mayoral general election
+- `KOZLAR_19`: Number of votes for John Kozlar in 2019 mayoral general election
+- `TOTV_RO15`: Number of votes cast in the 2015 mayoral runoff election
+- `RO_E15`: Number of votes for Rahm Emanuel in 2015 mayoral runoff election
+- `RO_G15`: Number of votes for Jesus “Chuy” Garcia in 2015 mayoral runoff election
+- `TOTV_G15`: Number of votes cast in the 2015 mayoral general election
+- `EMAN_G15`: Number of votes for Rahm Emanuel in 2015 mayoral general election
+- `WILS_G15`: Number of votes for Willie Wilson in 2015 mayoral general election
+- `FIORET_G15`: Number of votes for Robert Fioretti in 2015 mayoral general election
+- `GARCIA_G15`: Number of votes for Jesus “Chuy” Garcia in 2015 mayoral general election
+- `WALLS_G15`: Number of votes for William Walls in 2015 mayoral general election
