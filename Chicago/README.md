@@ -2,10 +2,10 @@
 This shapefile was obtained from the City of Chicago Data Portal and processed by members of the Metric Geometry and Gerrymandering Group (MGGG). 
 
 ## Sources
-The precinct shapefile was obtained from the City of Chicago Data Portal (available here https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Precincts-current-/uvpq-qeeq). Demographic data was downloaded from the 2010 Decennial Census at the block level and from the 2013-2017 American Community Survey five-year estimates at the block group level, both from American FactFinder (https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml). Election results come from the Chicago Board of Election Commissioners website (https://chicagoelections.com/en/home.html). 
+The precinct shapefile was obtained from the [City of Chicago Data Portal](https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Precincts-current-/uvpq-qeeq). Demographic data was downloaded from the 2010 Decennial Census at the block level and from the 2013-2017 American Community Survey five-year estimates at the block group level, both from [American FactFinder](https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml). Election results come from the [Chicago Board of Election Commissioners website](https://chicagoelections.com/en/home.html). 
 
 ## Processing
-Demographic data was aggregated from the block and block group levels to the precinct level using MGGG’s proration and roundoff tools (available here https://github.com/mggg/maup).
+Demographic data was aggregated from the block and block group levels to the precinct level using [MGGG’s proration and roundoff tools](https://github.com/mggg/maup).
 
 ## Metadata
 - `full_text`: Ward and precinct IDs
