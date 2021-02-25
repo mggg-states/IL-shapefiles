@@ -2,10 +2,10 @@
 This shapefile was obtained from the City of Chicago Data Portal and processed by members of the Metric Geometry and Gerrymandering Group (MGGG). 
 
 ## Sources
-The precinct shapefile was obtained from the [City of Chicago Data Portal](https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Precincts-current-/uvpq-qeeq). Demographic data was downloaded from the 2010 Decennial Census at the block level and from the 2013-2017 American Community Survey five-year estimates at the block group level, both from [American FactFinder](https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml). Election results come from the [Chicago Board of Election Commissioners website](https://chicagoelections.com/en/home.html). 
+The precinct shapefile was obtained from the [City of Chicago Data Portal](https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Precincts-current-/uvpq-qeeq). Demographic data were downloaded from the 2010 Decennial Census at the block level and from the 2013-2017 American Community Survey (ACS) five-year estimates at the block group level, both from [American FactFinder](https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml). Demographic data estimates at the block group level for the 2015-2019 ACS, along with additional 2010 Decennial Census data at the block level, were downloaded from the [National Historic GIS](https://data2.nhgis.org/main#). Election results come from the [Chicago Board of Election Commissioners website](https://chicagoelections.com/en/home.html). 
 
 ## Processing
-Demographic data was aggregated from the block and block group levels to the precinct level using [MGGG’s proration and roundoff tools](https://github.com/mggg/maup).
+Demographic data were disaggregated from block groups to blocks and aggregated from the block and block group levels to the precinct level using [MGGG’s proration and roundoff tools](https://github.com/mggg/maup). For 2015-2019 population estimates, block group data were weighted by 2010 Census block population for the disaggregation process.
 
 ## Metadata
 - `full_text`: Ward and precinct IDs
@@ -80,3 +80,19 @@ Demographic data was aggregated from the block and block group levels to the pre
 - `FIORET_G15`: Number of votes for Robert Fioretti in 2015 mayoral general election
 - `GARCIA_G15`: Number of votes for Jesus “Chuy” Garcia in 2015 mayoral general election
 - `WALLS_G15`: Number of votes for William Walls in 2015 mayoral general election
+- `TOTPOP19`: Total population from 2015-2019 ACS
+- `NH_WHITE19`: Non-hispanic White population from 2015-2019 ACS
+- `NH_BLACK19`: Non-hispanic Black population from 2015-2019 ACS
+- `NH_AMIN19`: Non-hispanic American Indian and Alaska Native population from 2015-2019 ACS
+- `NH_ASIAN19`: Non-hispanic Asian population from 2015-2019 ACS
+- `NH_NHPI19`: Non-hispanic Native Hawaiian and Pacific Islander population from 2015-2019 ACS
+- `NH_OTHER19`: Non-hispanic population of other race from 2015-2019 ACS
+- `NH_2MORE19`: Non-hispanic population of two or more races from 2015-2019 ACS
+- `HISP19`: Hispanic population from 2015-2019 ACS
+- `H_WHITE19`: Hispanic White population from 2015-2019 ACS
+- `H_BLACK19`: Hispanic Black population from 2015-2019 ACS
+- `H_AMIN19`: HispaEmanuel_M1nic American Indian and Alaska Native population from 2015-2019 ACS
+- `H_ASIAN19`: Hispanic Asian population from 2015-2019 ACS
+- `H_NHPI19`: Hispanic Native Hawaiian and Pacific Islander population from 2015-2019 ACS
+- `H_OTHER19`: Hispanic population of other race from 2015-2019 ACS
+- `H_2MORE19`: Hispanic population of two or more races from 2015-2019 ACS
