@@ -74,12 +74,12 @@ Demographic data were disaggregated from block groups to blocks and aggregated f
 - `KOZLAR_19`: Number of votes for John Kozlar in 2019 mayoral general election
 - `TOTV_RO15`: Number of votes cast in the 2015 mayoral runoff election
 - `RO_E15`: Number of votes for Rahm Emanuel in 2015 mayoral runoff election
-- `RO_G15`: Number of votes for Jesus “Chuy” Garcia in 2015 mayoral runoff election
+- `RO_G15`: Number of votes for Jesus “Chuy” García in 2015 mayoral runoff election
 - `TOTV_G15`: Number of votes cast in the 2015 mayoral general election
 - `EMAN_G15`: Number of votes for Rahm Emanuel in 2015 mayoral general election
 - `WILS_G15`: Number of votes for Willie Wilson in 2015 mayoral general election
 - `FIORET_G15`: Number of votes for Robert Fioretti in 2015 mayoral general election
-- `GARCIA_G15`: Number of votes for Jesus “Chuy” Garcia in 2015 mayoral general election
+- `GARCIA_G15`: Number of votes for Jesus “Chuy” García in 2015 mayoral general election
 - `WALLS_G15`: Number of votes for William Walls in 2015 mayoral general election
 - `TOTPOP19`: Total population from 2015-2019 ACS
 - `NH_WHITE19`: Non-hispanic White population from 2015-2019 ACS
