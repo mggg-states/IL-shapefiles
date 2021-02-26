@@ -11,6 +11,7 @@ Demographic data were disaggregated from block groups to blocks and aggregated f
 - `full_text`: Ward and precinct IDs
 - `precinct`: Precinct ID
 - `ward`: Ward ID
+- `ward_prec`: Alternate code for Ward and precinct IDs
 - `shape_area`: Precinct area in square feet
 - `shape_len`: Precinct perimeter in feet
 - `TOTPOP`: Total population from 2010 census
@@ -91,11 +92,13 @@ Demographic data were disaggregated from block groups to blocks and aggregated f
 - `HISP19`: Hispanic population from 2015-2019 ACS
 - `H_WHITE19`: Hispanic White population from 2015-2019 ACS
 - `H_BLACK19`: Hispanic Black population from 2015-2019 ACS
-- `H_AMIN19`: HispaEmanuel_M1nic American Indian and Alaska Native population from 2015-2019 ACS
+- `H_AMIN19`: Hispanic American Indian and Alaska Native population from 2015-2019 ACS
 - `H_ASIAN19`: Hispanic Asian population from 2015-2019 ACS
 - `H_NHPI19`: Hispanic Native Hawaiian and Pacific Islander population from 2015-2019 ACS
 - `H_OTHER19`: Hispanic population of other race from 2015-2019 ACS
 - `H_2MORE19`: Hispanic population of two or more races from 2015-2019 ACS
+- `MAY19LL`: Number of votes for Lori Lightfoot in 2019 mayoral runoff election
+- `MAY19TP`: Number of votes for Toni Preckwinkle in 2019 mayoral runoff election
 
 ## Projection
 This shapefile uses a UTM Zone 16N projection (EPSG 26916).
