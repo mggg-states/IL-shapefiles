@@ -97,5 +97,5 @@ Demographic data were disaggregated from block groups to blocks and aggregated f
 - `H_OTHER19`: Hispanic population of other race from 2015-2019 ACS
 - `H_2MORE19`: Hispanic population of two or more races from 2015-2019 ACS
 
-##Projection
+## Projection
 This shapefile uses a UTM Zone 16N projection (EPSG 26916).
